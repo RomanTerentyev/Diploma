@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- Launching of control node -->
+    <node pkg = "diploma" type = "keypoints.py" name = "robot_control_node">
+	<!-- node pkg = "diploma" type = "keypoints.py" name = "robot_control_node" -->
+		<!-- remap from ="cmd_vel" to ="/mobile_base/commands/velocity"/ -->
+	</node>
+
+</launch>
